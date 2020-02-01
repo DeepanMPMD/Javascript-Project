@@ -1,0 +1,59 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+    <script type="text/javascript" href="email.js"></script>
+
+	<title>Complain Box</title>
+</head>
+<body>
+	<div class="container-fliud">
+	<h1 class="bg-1 text-white jumbtron text-center" >Complaint Box</h1>
+</div>
+<br><br>
+<div class="container-fliud bg">
+
+	<!--<form class="jumbtron text-center" action="https://script.google.com/macros/s/AKfycbyCgPdkPX76rQfdz1JrDb6Rzze-guQJ-qbUk-qioA/exec" method="post">
+	<label style="color:white;">Send to...</label>
+	<ul>
+	<li><input type="email" name="mail" placeholder="Enter Email" required style="margin-bottom: 1em ; border-radius: 5px;"></input></li>
+	<li><textarea name="input[body]" id="texts" placeholder="Type your Complaint" class="form-control" style="max-height: 300px; height: 250px" spellcheck="false"></textarea></li>
+	<label></label>
+</ul>
+</div>
+	<div class="jumbtron text-center">
+	<input type="button" name="send" onclick="getvalue()" value="send" class="btn btn-outline-danger"></input></div>
+</form>-->
+<form id="gform" method="POST" class="pure-form pure-form-stacked jumbtron text-center"
+          action="https://script.google.com/macros/s/AKfycbzTheqF0NgnNe9ciJNY6UMUiHDInq-9UzseL76UCw/exec">
+
+
+		<label ></label>
+        <input id="email" name="email" type="email" style="max-width: 350px ; width:400px;border-radius: 5px;"
+               required placeholder="Send Email" />
+               <br>
+               <br>
+        <label > </label>
+        <textarea id="message" name="message" cols="60" rows="10"  style="border-radius: 5px;"required placeholder="Type your Complaint.."></textarea>
+
+
+<div><br>
+        <input type="submit" id="submit"  value="Send"  class="btn btn-outline-success" style="border-radius: 5px;"> 
+                  </input>
+</div>
+    </form>
+</div>
+    <div><br>
+<footer class="container-fliud bg-1 text-center">
+	<p class="text-white jumbtron text">@RVSCAS</p><br>
+</footer></div>
+</body>
+<script type="text/javascript">
+	function myfunction(){
+		//window.location.assign("index.html");
+	}
+</script>
+</html>

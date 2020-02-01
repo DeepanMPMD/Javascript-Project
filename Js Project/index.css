@@ -1,0 +1,20 @@
+body
+{
+	
+}
+
+.container ul li
+{
+	list-style-type: none;		
+}
+.bg {background-color: lightpink }
+.bg-1{background-color: #7c0201}
+form
+{
+	padding-top: 2em;
+	
+}
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+$footer-bg: #fff;
+https://script.google.com/macros/s/AKfycbyCgPdkPX76rQfdz1JrDb6Rzze-guQJ-qbUk-qioA/exec 
