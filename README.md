@@ -1,4 +1,4 @@
-# JavaScriptProject
+# JavaScript Project
 JavaScript Project Repository
 
 **Complain Box**
